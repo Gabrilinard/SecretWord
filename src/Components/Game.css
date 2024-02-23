@@ -103,17 +103,214 @@
   }
   
   @media only screen and (min-width: 600px) and (max-width: 768px) {
+    .game h1 {
+        font-size: 2.7em;
+    }
+
+    .tip {
+        font-size: 1.4rem;
+    }
+
+    .wordContainer {
+        border: 8px solid #ecfa00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
+    .letter, .blankSquare {
+        font-size: 25px;
+        line-height: 1.5;
+        border: 3px solid #000;
+        height: 40px;
+        width: 35px;
+        text-transform: uppercase;
+        background-color: #FFF;
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .letterContainer {
+        margin-bottom: 1.2em;
+    }
+    
+    .letterContainer form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .letterContainer input {
+        height: 40px;
+        width: 40px;
+        font-size: 2.0em;
+        text-align: center;
+        margin-right: 1em;
+    }
   }
   
   /* Estilos para telas de 768px até 992px */
   @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .game h1 {
+        font-size: 2.0em;
+    }
+
+    .tip {
+        font-size: 1.1rem;
+    }
+
+    .wordContainer {
+        border: 8px solid #ecfa00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
+    .letter, .blankSquare {
+        font-size: 25px;
+        line-height: 1.5;
+        border: 3px solid #000;
+        height: 40px;
+        width: 35px;
+        text-transform: uppercase;
+        background-color: #FFF;
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .letterContainer {
+        margin-bottom: 1.2em;
+    }
+    
+    .letterContainer form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .letterContainer input {
+        height: 40px;
+        width: 40px;
+        font-size: 2.0em;
+        text-align: center;
+        margin-right: 1em;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    .game h1 {
+        font-size: 2.7em;
+    }
+
+    .tip {
+        font-size: 1.4rem;
+    }
+
+    .wordContainer {
+        border: 8px solid #ecfa00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .letter, .blankSquare {
+        font-size: 25px;
+        line-height: 1.5;
+        border: 3px solid #000;
+        height: 40px;
+        width: 35px;
+        text-transform: uppercase;
+        background-color: #FFF;
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .letterContainer {
+        margin-bottom: 1.2em;
+    }
+    
+    .letterContainer form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .letterContainer input {
+        height: 40px;
+        width: 40px;
+        font-size: 2.0em;
+        text-align: center;
+        margin-right: 1em;
+    }
   }
   
   /* Estilos para telas de 992px até 1200px */
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .game h1{
+        font-size: 2.7rem;
+    }
+
+    .tip {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .wordContainer {
+        border: 8px solid #ecfa00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
+    .letter, .blankSquare {
+        font-size: 25px;
+        line-height: 1.5;
+        border: 3px solid #000;
+        height: 60px;
+        width: 55px;
+        text-transform: uppercase;
+        background-color: #FFF;
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .letterContainer {
+        margin-bottom: 1.2em;
+    }
+    
+    .letterContainer form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .letterContainer input {
+        height: 40px;
+        width: 40px;
+        font-size: 2.0em;
+        text-align: center;
+        margin-right: 1em;
+    }
   }
   
   /* Estilos para telas de 1200px em diante */

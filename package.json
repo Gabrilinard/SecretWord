@@ -1,8 +1,4 @@
 {
-<<<<<<< HEAD
-  "dependencies": {
-    "@react-hook/media-query": "^1.1.1"
-=======
   "name": "secretwordd",
   "version": "0.1.0",
   "private": true,
@@ -38,6 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
->>>>>>> 1c34befa349c1f02461b586d85a2307fedb6ce28
   }
 }
