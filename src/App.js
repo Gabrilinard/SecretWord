@@ -5,6 +5,7 @@ import { wordsList } from './data/words';
 import Game from './Components/Game';
 import GameOver from './Components/GameOver';
 
+
 const stages = [
   {id: 1, name: "start"},
   {id: 2, name: "game"},      /*Array com cada estágio declarado. Responsável para mandar cada estágio para o return*/
