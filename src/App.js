@@ -23,7 +23,7 @@ function App() {
 
   const[guessedLetters, setGuessedLetters] = useState([]);
   const [wrongLetters, setWrongLetters] = useState([]);
-  const [guesses, setGuesses] = useState(3);
+  const [guesses, setGuesses] = useState(5);
   const [score, setScore] = useState(0)
 
   //Funçôes Utilizadas na lógica do sistema:
@@ -82,7 +82,7 @@ function App() {
 
   const retry = () => {
     setScore(0);
-    setGuesses(3);   //As chances começarem 3, acabar em 0 e começar novamente em 3. 
+    setGuesses(5);   //As chances começarem 5, acabar em 0 e começar novamente em 5. 
     setGameStage(stages[0].name) /*Função para resetar o jogo*/
   }
 
@@ -101,6 +101,7 @@ function App() {
 
     //Checar se o usuário ganhou o jogo
 
+
     useEffect(() => {
       const uniqueLetters = [...new Set(letters)];
   
@@ -108,14 +109,15 @@ function App() {
       console.log(guessedLetters);
   
       // win condition
-      if (guessedLetters.length === uniqueLetters.length) {
+      if (guessedLetters.length ===
+        uniqueLetters.length && gameStage === stages[1].name) {
         // add score
-        setScore((actualScore) => (actualScore += 100));
+        setScore((actualScore) => (actualScore + 100));
   
         // restart game with new word
         startGame();
       }
-    }, [guessedLetters, letters, startGame]);
+    }, [guessedLetters, letters, startGame, gameStage]);
 
   //Parte que vai receber os atributos para mandar para cada componente específico 
   return (
